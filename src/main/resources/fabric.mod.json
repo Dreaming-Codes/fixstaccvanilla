@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fixstaccvanilla",
+  "version": "${version}",
+  "name": "fixstaccvanilla",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fixstaccvanilla/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "codes.dreaming.fixstaccvanilla.client.FixStaccVanillaClient"
+    ],
+    "main": [
+      "codes.dreaming.fixstaccvanilla.FixStaccVanilla"
+    ]
+  },
+  "mixins": [
+    "fixstaccvanilla.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
