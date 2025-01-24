@@ -10,11 +10,11 @@
   "icon": "assets/fixstaccvanilla/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "codes.dreaming.fixstaccvanilla.client.FixStaccVanillaClient"
-    ],
     "main": [
       "codes.dreaming.fixstaccvanilla.FixStaccVanilla"
+    ],
+    "client": [
+      "codes.dreaming.fixstaccvanilla.FixStaccClient"
     ]
   },
   "mixins": [
