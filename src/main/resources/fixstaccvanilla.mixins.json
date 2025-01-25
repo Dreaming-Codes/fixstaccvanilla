@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "StaccFix"
+    "StaccFix",
+    "FencesFix"
   ],
   "injectors": {
     "defaultRequire": 1
